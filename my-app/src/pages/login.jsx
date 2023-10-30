@@ -13,7 +13,7 @@ const Login = () => {
                 console.log("login successfull");
             }
         } catch (error) {
-            console.log(response.error);
+            console.log(error);
         }
     }
     return (

@@ -16,7 +16,7 @@ const SignUp = () => {
                 console.log("Account created");
             }
         } catch (error) {
-            console.log(response.error);
+            console.log(error);
         }
     }
     return (
